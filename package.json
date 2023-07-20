@@ -1,6 +1,7 @@
 {
   "name": "@tofandel/min-viewport",
-  "version": "1.0.3",
+  "version": "1.0.4",
+  "description": "This package allows you to specify a minimum viewport for your web application",
   "main": "index.js",
   "type": "module",
   "types": "index.d.ts",
@@ -14,6 +15,7 @@
     "ts": "tsc index.js --declaration --allowJs --emitDeclarationOnly",
     "prepare": "npm run ts"
   },
+  "keywords": ["viewport", "screen", "min size", "mobile"],
   "devDependencies": {
     "typescript": "^5.1.6"
   }
