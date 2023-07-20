@@ -1,6 +1,6 @@
 {
   "name": "@tofandel/min-viewport",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "This package allows you to specify a minimum viewport for your web application",
   "main": "index.js",
   "type": "module",
@@ -8,6 +8,7 @@
   "publishConfig": {
     "access": "public"
   },
+  "files": ["index.js", "index.d.ts", "readme.md", "LICENSE"],
   "repository": "https://github.com/Tofandel/min-viewport",
   "bugs": "https://github.com/Tofandel/min-viewport/issues",
   "license": "GPL-3.0-or-later",
