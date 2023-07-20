@@ -1,0 +1,20 @@
+{
+  "name": "@tofandel/min-viewport",
+  "version": "1.0.3",
+  "main": "index.js",
+  "type": "module",
+  "types": "index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": "https://github.com/Tofandel/min-viewport",
+  "bugs": "https://github.com/Tofandel/min-viewport/issues",
+  "license": "GPL-3.0-or-later",
+  "scripts": {
+    "ts": "tsc index.js --declaration --allowJs --emitDeclarationOnly",
+    "prepublishOnly": "npm run ts"
+  },
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  }
+}
