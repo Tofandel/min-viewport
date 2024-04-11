@@ -27,7 +27,11 @@ export default (minSize = 400) => {
             hook('resize', listener);
         }, 10);
     };
-    hook('load', listener);
+    if (document.readyState === 'complete') {
+        listener()
+    } else {
+        hook('load', listener);
+    }
     hook('resize', listener);
     if (orientation) {
         orientation.addEventListener('change', listener);
